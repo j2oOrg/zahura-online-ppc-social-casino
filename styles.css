@@ -477,6 +477,127 @@ blockquote {
   gap: 0.9rem;
 }
 
+.phase-grid {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.phase-card {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(12, 0, 32, 0.78);
+  padding: 1.75rem;
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: 0.7rem;
+}
+
+.phase-card__label {
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.24em;
+  color: var(--brand-violet);
+}
+
+.phase-card--studio {
+  background: linear-gradient(135deg, rgba(255, 79, 216, 0.08), rgba(12, 0, 40, 0.9));
+}
+
+.phase-card--community {
+  background: linear-gradient(135deg, rgba(255, 184, 119, 0.12), rgba(12, 0, 30, 0.9));
+}
+
+.phase-card--hosting {
+  background: linear-gradient(135deg, rgba(141, 160, 255, 0.12), rgba(10, 0, 28, 0.9));
+}
+
+.phase-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.spark-showcase {
+  padding: 2.2rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: linear-gradient(140deg, rgba(255, 79, 216, 0.75), rgba(30, 8, 60, 0.95));
+  box-shadow: 0 30px 70px rgba(8, 0, 30, 0.7);
+  display: grid;
+  gap: 1.5rem;
+  color: #fffafc;
+}
+
+.spark-showcase__header h3 {
+  margin-top: 0.5rem;
+}
+
+.spark-showcase p {
+  color: rgba(255, 239, 250, 0.92);
+}
+
+.spark-showcase__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.spark-card {
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 1.2rem;
+  background: rgba(7, 0, 24, 0.45);
+  backdrop-filter: blur(12px);
+  display: grid;
+  gap: 0.7rem;
+}
+
+.spark-card h4 {
+  margin-bottom: 0.3rem;
+  color: #fff9ff;
+}
+
+.spark-card ul {
+  margin: 0;
+  padding-left: 1rem;
+  color: rgba(255, 239, 250, 0.85);
+}
+
+.spark-chip {
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 0.45rem 0.9rem;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.spark-chip small {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+}
+
+.spark-chip strong {
+  font-size: 0.95rem;
+  color: #fff9ff;
+}
+
+.spark-footer {
+  color: rgba(255, 239, 250, 0.9);
+  font-weight: 500;
+}
+
+.pill--spark {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.45);
+  color: #fff;
+}
+
 .team-photo {
   width: 100%;
   border-radius: var(--radius-lg);
