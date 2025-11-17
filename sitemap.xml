@@ -2,16 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zahura.online/</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://zahura.online/community/</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zahura.online/responsible-play/</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://zahura.online/auth/</loc>
+    <loc>https://zahura.online/how-it-works/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zahura.online/daily-bonus/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zahura.online/leaderboard/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://zahura.online/community-guidelines/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -21,14 +41,24 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://zahura.online/community-guidelines/</loc>
+    <loc>https://zahura.online/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://zahura.online/privacy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://zahura.online/contact/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://zahura.online/terms/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://zahura.online/data-rights/</loc>
+    <changefreq>quarterly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://zahura.online/cookie-policy/</loc>
@@ -39,35 +69,5 @@
     <loc>https://zahura.online/cookie-settings/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://zahura.online/data-rights/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://zahura.online/how-it-works/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://zahura.online/privacy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://zahura.online/profile/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://zahura.online/responsible-play/</loc>
-    <changefreq>quarterly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://zahura.online/terms/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
   </url>
 </urlset>
