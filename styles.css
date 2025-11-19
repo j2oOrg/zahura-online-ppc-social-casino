@@ -537,6 +537,24 @@ blockquote {
   font-size: 0.95rem;
 }
 
+.game-embed {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  background: rgba(5, 0, 20, 0.85);
+  box-shadow: var(--shadow-soft);
+  padding: clamp(0.5rem, 2vw, 1rem);
+}
+
+.game-embed iframe {
+  display: block;
+  width: 100%;
+  height: min(720px, 70vh);
+  border: none;
+  border-radius: calc(var(--radius-lg) - 8px);
+  background: #000;
+}
+
 .spark-showcase {
   padding: 2.2rem;
   border-radius: var(--radius-lg);
