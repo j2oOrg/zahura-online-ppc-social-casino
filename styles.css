@@ -555,6 +555,14 @@ blockquote {
   background: #000;
 }
 
+.game-embed__actions {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
 .spark-showcase {
   padding: 2.2rem;
   border-radius: var(--radius-lg);

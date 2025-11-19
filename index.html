@@ -356,11 +356,22 @@
         <div class="section__header">
           <p class="pill">Game spotlight</p>
           <h2>Rise of Orpheus, live on zahura.online.</h2>
-          <p>Drop straight into Rise of Orpheus without leaving this page. The build sits inside our zahura.online shell so you can sample the newest reels, test the pacing, and feel the boardwalk atmosphere instantly.</p>
+          <p>Drop straight into Rise of Orpheus without leaving this page. The build stays inside our zahura.online shell so you can sample new reels, test pacing, and feel the boardwalk glow instantly.</p>
           <p>No downloads, no pop-outs&mdash;just the embedded experience tuned for calm play, responsible cues, and the neon palette that runs through the rest of the lounge.</p>
         </div>
         <div class="game-embed" aria-label="Rise of Orpheus game embed">
-          <iframe src="/game/rise-of-orpheus.php" title="Rise of Orpheus social casino game" loading="lazy" referrerpolicy="no-referrer" sandbox="allow-scripts allow-same-origin"></iframe>
+          <iframe
+            id="orpheus-frame"
+            src="https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&amp;gid=riseoforpheus&amp;lang=en_GB&amp;practice=1&amp;channel=desktop&amp;demo=2"
+            title="Rise of Orpheus social casino game"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <div class="game-embed__actions">
+            <button class="btn btn--soft" type="button" data-action="reset-orpheus">Restart round</button>
+            <a class="btn btn--ghost" href="#rooms">Explore more rooms</a>
+          </div>
         </div>
       </div>
     </section>
@@ -638,5 +649,15 @@
       <!-- Footer badges stay lightweight to keep load times quick -->
     </div>
   </footer>
+  <script>
+    document.addEventListener('click', function (event) {
+      const control = event.target.closest('[data-action="reset-orpheus"]');
+      if (!control) return;
+      const frame = document.getElementById('orpheus-frame');
+      if (frame) {
+        frame.src = "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=riseoforpheus&lang=en_GB&practice=1&channel=desktop&demo=2";
+      }
+    });
+  </script>
 </body>
 </html>
